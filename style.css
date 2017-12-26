@@ -1,68 +1,71 @@
 body, div, a {
-    padding:0;
-    margin:0;
-	font-family: 'Quicksand', sans-serif;
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
 }
-#name{
-	font-size: 20px;
-	color: white;
+#name {
+    font-size: 20px;
+    color: white;
 }
 #calculator {
-	background-color: #008853;
-	width: 275px;
-	height: 375px;
-	border: 3px black solid;
-	margin: 10px auto;
-	/*padding: 5px;*/
-	border-radius: 10px;
-}
-#display {
-    height: 70px;
-    width: 250px;
-    margin:auto;
-    background-color:white;
-    margin-bottom: 5px;
-    text-align: right;
-    font-size: 60px;
-    padding: 0 5px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#008853), to(#060606));
+    width: 275px;
+    height: 360px;
+    border: 3px black solid;
+    margin: 10px auto;
+    /*padding: 5px;*/
     border-radius: 10px;
 }
+#display {
+    height: 55px;
+    width: 250px;
+    margin: auto;
+    background-color: white;
+    margin-bottom: 5px;
+    text-align: right;
+    font-size: 45px;
+    padding: 0 5px;
+    border-radius: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 #operator {
-	width: 50px;
-	height: 245px;
-	float:right;
-	background-color: black;
-	border-radius: 10px;
-
+    width: 50px;
+    height: 245px;
+    float: right;
+    background: black;
+    border-radius: 10px;
 }
 #operator a {
-	width: 35px;
-	height: 35px;
-	font-size: 25px;
+    width: 35px;
+    height: 35px;
+    font-size: 25px;
 }
-#high a{
-	float:left;
+#high a {
+    float: left;
 }
 #mid a {
-	float: left;
+    float: left;
 }
 #low a {
-	float: left;
+    float: left;
 }
 #bottom a {
-	float: left;
+    float: left;
 }
- a {
- 	cursor: pointer;
-	display: block;
-	width: 50px;
-	height: 50px;
-	text-decoration: none;
-	color: black;
-	text-align: center;
-	font-size: 30px;
-	padding: 2px;
-	margin: 5px 6px;
-	background: -webkit-gradient(linear, left top, left bottom, from(#EDEDED), to(#DCDCDC));
-	border-radius: 10px;
+a {
+    cursor: pointer;
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    padding: 2px;
+    margin: 5px 6px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#8D8989), to(#F4F1F1
+));
+    border-radius: 10px;
 }
