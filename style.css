@@ -8,12 +8,11 @@ body, div, a {
     color: white;
 }
 #calculator {
-    background: -webkit-gradient(linear, left top, left bottom, from(#008853), to(#060606));
+    background: linear-gradient(#008853,#060606);
     width: 275px;
     height: 360px;
     border: 3px black solid;
     margin: 10px auto;
-    /*padding: 5px;*/
     border-radius: 10px;
 }
 #display {
@@ -65,7 +64,6 @@ a {
     font-size: 30px;
     padding: 2px;
     margin: 5px 6px;
-    background: -webkit-gradient(linear, left top, left bottom, from(#8D8989), to(#F4F1F1
-));
+    background: linear-gradient(#8D8989,#F4F1F1);
     border-radius: 10px;
 }
